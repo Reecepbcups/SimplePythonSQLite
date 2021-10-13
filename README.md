@@ -32,3 +32,18 @@ contacts.changeRecordInfo('FirstName', 'Alice', 'EmailAddress', 'alice_changed@n
 lastRecord = contacts.deleteLastRecord('ContactID'))
 print(f"{lsatRecord} was deleted")
 ```
+
+# Object Methods
+```py
+newRecord(properties=['str1', 'str2'])
+getRecord(field="Name" , _value="Mike", numOfRecords=1, showDebug=True)
+getAllRecords()
+getCustomRecords('FirstName') # selects FirstName from Table
+deleteRecord("FirstName", "Mike")
+deleteLastRecord(int_ID)
+
+changeRecordInfo('Firstname', 'Robert', 'Age', '22') # Updates Roberts Age to 22
+
+totalrecords() # returns the amount of records
+
+```
