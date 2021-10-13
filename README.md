@@ -1,7 +1,7 @@
 # SimplePythonSQLite
 An easier way to use SQLite for Python applications
 
-#Example:
+# Example:
 ```py
 from Database_V2 import DBFunctions
 
